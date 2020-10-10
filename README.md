@@ -2,6 +2,8 @@
 
 Manipulate files with functions for your web app.
 
+[![Build Status](https://travis-ci.com/folded-php/file.svg?branch=master)](https://travis-ci.com/folded-php/file) [![Maintainability](https://api.codeclimate.com/v1/badges/b5a5af3f90a5a429fec3/maintainability)](https://codeclimate.com/github/folded-php/file/maintainability) [![TODOs](https://img.shields.io/endpoint?url=https://api.tickgit.com/badge?repo=github.com/folded-php/file)](https://www.tickgit.com/browse?repo=github.com/folded-php/file)
+
 ## Summary
 
 - [About](#about)
