@@ -1,0 +1,38 @@
+{
+    "name": "folded/file",
+    "description": "Manipulate files with functions for your web app.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Khalyomede",
+            "email": "khalyomede@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "webmozart/assert": "1.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.*",
+        "pestphp/pest": "0.3.*",
+        "friendsofphp/php-cs-fixer": "2.*",
+        "phpstan/phpstan": "0.12.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Folded\\": "src"
+        },
+        "files": [
+            "src/addCsvRowToFile.php",
+            "src/closeFile.php",
+            "src/deleteFile.php",
+            "src/getCsvRowFromFile.php",
+            "src/openFile.php"
+        ]
+    },
+    "scripts": {
+        "test": "pest --coverage && phpstan analyse",
+        "lint": "php-cs-fixer --allow-risky=yes fix"
+    }
+}
