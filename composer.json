@@ -29,7 +29,8 @@
             "src/closeFile.php",
             "src/deleteFile.php",
             "src/getCsvRowFromFile.php",
-            "src/openFile.php"
+            "src/openFile.php",
+            "src/writeOnFile.php"
         ]
     },
     "scripts": {
