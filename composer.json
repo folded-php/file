@@ -25,6 +25,7 @@
         },
         "files": [
             "src/addCsvRowToFile.php",
+            "src/changeName.php",
             "src/closeFile.php",
             "src/deleteFile.php",
             "src/getCsvRowFromFile.php",

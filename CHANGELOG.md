@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- New method `changeName()` that does the same as the native `rename()` function, and will throw in case the file could not be renamed.
+
 ## [0.1.0] 2020-09-11
 
 ### Added
