@@ -158,3 +158,4 @@ echo "$numberOfBytesWritten bytes written";
 |        | 7.3 | 7.4 | 8.0 |
 | ------ | --- | --- | --- |
 | v0.1.0 | ❌  | ✔️  | ❓  |
+| v0.2.0 | ❌  | ✔️  | ❓  |
