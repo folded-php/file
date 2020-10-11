@@ -56,6 +56,7 @@ composer required folded/file
 - [3. Delete a file](#3-delete-a-file)
 - [4. Write a CSV row to a file](#4-write-a-csv-row-to-a-file)
 - [5. Read a CSV row from a file](#5-read-a-csv-row-from-a-file)
+- [6. Rename a file](#6-rename-a-file)
 
 ### 1. Open a file
 
@@ -115,6 +116,16 @@ $file = openFile("path/to/file.csv", "r");
 
 $firstRow = getCsvRowFromFile($file);
 $secondRow = getCsvRowFromFile($file);
+```
+
+### 6. Rename a file
+
+In this example, we will rename a file.
+
+```php
+use function Folded\changeName;
+
+changeName("path/to/old.txt", "path/to/new.txt");
 ```
 
 ## Version support
