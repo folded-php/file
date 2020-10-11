@@ -57,6 +57,7 @@ composer required folded/file
 - [4. Write a CSV row to a file](#4-write-a-csv-row-to-a-file)
 - [5. Read a CSV row from a file](#5-read-a-csv-row-from-a-file)
 - [6. Rename a file](#6-rename-a-file)
+- [7. Write on file](#7-write-on-file)
 
 ### 1. Open a file
 
@@ -126,6 +127,30 @@ In this example, we will rename a file.
 use function Folded\changeName;
 
 changeName("path/to/old.txt", "path/to/new.txt");
+```
+
+### 7. Write on file
+
+In this example, we will write on an opened file.
+
+```php
+use function Folded\writeOnFile;
+
+$file = fopen("path/to/file.txt");
+
+writeToFile($file, "some text");
+```
+
+If you need to get the number of bytes written, get the return of the function.
+
+```php
+use function Folded\writeOnFile;
+
+$file = fopen("path/to/file.txt");
+
+$numberOfBytesWritten = writeToFile($file, "some text");
+
+echo "$numberOfBytesWritten bytes written";
 ```
 
 ## Version support
